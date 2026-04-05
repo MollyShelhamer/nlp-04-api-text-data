@@ -1,5 +1,5 @@
 """
-stage02_validate_case.py
+stage02_validate_shelhamer.py
 (EDIT YOUR COPY OF THIS FILE)
 
 Source: raw JSON object

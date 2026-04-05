@@ -1,5 +1,5 @@
 """
-stage03_transform_case.py
+stage03_transform_shelhamer.py
 (EDIT YOUR COPY OF THIS FILE)
 
 Source: validated JSON object
@@ -66,9 +66,8 @@ def run_transform(
         records.append(
             {
                 "user_id": record["userId"],
-                "post_id": record["id"],
+                "id": record["id"],
                 "title": record["title"],
-                "body": record["body"],
             }
         )
 
@@ -78,7 +77,7 @@ def run_transform(
     df = df.with_columns(
         [
             pl.col("title").str.len_chars().alias("title_length"),
-            pl.col("body").str.len_chars().alias("body_length"),
+            pl.col("userId").str.len_chars().alias("user_id_length"),
         ]
     )
 

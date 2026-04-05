@@ -217,3 +217,102 @@ shape: (5, 6)
 2026-04-05 00:43:31 | INFO | CI | ========================
 2026-04-05 00:43:31 | INFO | CI | STAGE 03: TRANSFORM starting...
 2026-04-05 00:43:31 | INFO | CI | ========================
+2026-04-05 00:48:05 | INFO | CI | === RUN START ===
+2026-04-05 00:48:05 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-05 00:48:05 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-05 00:48:05 | INFO | CI | python=3.14.3
+2026-04-05 00:48:05 | INFO | CI | os=Windows 10
+2026-04-05 00:48:05 | INFO | CI | shell=powershell
+2026-04-05 00:48:05 | INFO | CI | cwd=.
+2026-04-05 00:48:05 | INFO | CI | github_actions=False
+2026-04-05 00:48:05 | INFO | CI | START PIPELINE
+2026-04-05 00:48:05 | INFO | CI | ROOT_PATH = .
+2026-04-05 00:48:05 | INFO | CI | DATA_PATH = data
+2026-04-05 00:48:05 | INFO | CI | RAW_PATH = data\raw
+2026-04-05 00:48:05 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-05 00:48:05 | INFO | CI | ========================
+2026-04-05 00:48:05 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-05 00:48:05 | INFO | CI | ========================
+2026-04-05 00:48:05 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-05 00:48:05 | INFO | CI | SINK PATH = data\raw\shelhamer_raw.json
+2026-04-05 00:48:05 | INFO | CI | ========================
+2026-04-05 00:48:05 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-05 00:48:05 | INFO | CI | ========================
+2026-04-05 00:48:05 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-05 00:48:05 | INFO | CI | Top-level type: list
+2026-04-05 00:48:05 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-05 00:48:05 | INFO | CI | Field types:
+2026-04-05 00:48:05 | INFO | CI | userId: int
+2026-04-05 00:48:05 | INFO | CI | id: int
+2026-04-05 00:48:05 | INFO | CI | title: str
+2026-04-05 00:48:05 | INFO | CI | Validation passed.
+2026-04-05 00:48:05 | INFO | CI | Sink: validated JSON object
+2026-04-05 00:48:05 | INFO | CI | ========================
+2026-04-05 00:48:05 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-05 00:48:05 | INFO | CI | ========================
+2026-04-05 00:50:08 | INFO | CI | === RUN START ===
+2026-04-05 00:50:08 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-05 00:50:08 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-05 00:50:08 | INFO | CI | python=3.14.3
+2026-04-05 00:50:08 | INFO | CI | os=Windows 10
+2026-04-05 00:50:08 | INFO | CI | shell=powershell
+2026-04-05 00:50:08 | INFO | CI | cwd=.
+2026-04-05 00:50:08 | INFO | CI | github_actions=False
+2026-04-05 00:50:08 | INFO | CI | START PIPELINE
+2026-04-05 00:50:08 | INFO | CI | ROOT_PATH = .
+2026-04-05 00:50:08 | INFO | CI | DATA_PATH = data
+2026-04-05 00:50:08 | INFO | CI | RAW_PATH = data\raw
+2026-04-05 00:50:08 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-05 00:50:08 | INFO | CI | ========================
+2026-04-05 00:50:08 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-05 00:50:08 | INFO | CI | ========================
+2026-04-05 00:50:08 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-05 00:50:08 | INFO | CI | SINK PATH = data\raw\shelhamer_raw.json
+2026-04-05 00:50:08 | INFO | CI | ========================
+2026-04-05 00:50:08 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-05 00:50:08 | INFO | CI | ========================
+2026-04-05 00:50:08 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-05 00:50:08 | INFO | CI | Top-level type: list
+2026-04-05 00:50:08 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-05 00:50:08 | INFO | CI | Field types:
+2026-04-05 00:50:08 | INFO | CI | userId: int
+2026-04-05 00:50:08 | INFO | CI | id: int
+2026-04-05 00:50:08 | INFO | CI | title: str
+2026-04-05 00:50:08 | INFO | CI | Validation passed.
+2026-04-05 00:50:08 | INFO | CI | Sink: validated JSON object
+2026-04-05 00:50:08 | INFO | CI | ========================
+2026-04-05 00:50:08 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-05 00:50:08 | INFO | CI | ========================
+2026-04-05 00:52:46 | INFO | CI | === RUN START ===
+2026-04-05 00:52:46 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-05 00:52:46 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-05 00:52:46 | INFO | CI | python=3.14.3
+2026-04-05 00:52:46 | INFO | CI | os=Windows 10
+2026-04-05 00:52:46 | INFO | CI | shell=powershell
+2026-04-05 00:52:46 | INFO | CI | cwd=.
+2026-04-05 00:52:46 | INFO | CI | github_actions=False
+2026-04-05 00:52:46 | INFO | CI | START PIPELINE
+2026-04-05 00:52:46 | INFO | CI | ROOT_PATH = .
+2026-04-05 00:52:46 | INFO | CI | DATA_PATH = data
+2026-04-05 00:52:46 | INFO | CI | RAW_PATH = data\raw
+2026-04-05 00:52:46 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-05 00:52:46 | INFO | CI | ========================
+2026-04-05 00:52:46 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-05 00:52:46 | INFO | CI | ========================
+2026-04-05 00:52:47 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/albums
+2026-04-05 00:52:47 | INFO | CI | SINK PATH = data\raw\shelhamer_raw.json
+2026-04-05 00:52:47 | INFO | CI | ========================
+2026-04-05 00:52:47 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-05 00:52:47 | INFO | CI | ========================
+2026-04-05 00:52:47 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-05 00:52:47 | INFO | CI | Top-level type: list
+2026-04-05 00:52:47 | INFO | CI | Keys in first record: ['userId', 'id', 'title']
+2026-04-05 00:52:47 | INFO | CI | Field types:
+2026-04-05 00:52:47 | INFO | CI | userId: int
+2026-04-05 00:52:47 | INFO | CI | id: int
+2026-04-05 00:52:47 | INFO | CI | title: str
+2026-04-05 00:52:47 | INFO | CI | Validation passed.
+2026-04-05 00:52:47 | INFO | CI | Sink: validated JSON object
+2026-04-05 00:52:47 | INFO | CI | ========================
+2026-04-05 00:52:47 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-05 00:52:47 | INFO | CI | ========================
