@@ -127,6 +127,10 @@ git push -u origin main
 
 </details>
 
+## Phase 4: Technical Modification
+- config_shelhamer.py : changed processed output file name to shelhamer_processed.csv
+- pipeline_api_json_shelhamer.py : changed imports to pull from config_shelhamer.py
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
