@@ -77,7 +77,7 @@ def run_transform(
     df = df.with_columns(
         [
             pl.col("title").str.len_chars().alias("title_length"),
-            pl.col("userId").str.len_chars().alias("user_id_length"),
+            pl.col("user_id").cast(pl.Utf8).str.len_chars().alias("user_id_length"),
         ]
     )
 
