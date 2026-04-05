@@ -1,5 +1,5 @@
 """
-config_case.py
+config_shelhamer.py
 (EDIT YOUR COPY OF THIS FILE)
 
 Purpose
